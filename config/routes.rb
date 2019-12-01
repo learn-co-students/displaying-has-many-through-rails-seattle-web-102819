@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'comments/show'
+
   resources :posts
   resources :users
   resources :people
